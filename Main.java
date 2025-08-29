@@ -355,7 +355,7 @@ public class Main {
         System.out.println("\n" + gimnasio.getEstadisticasGenerales());
     }
      
-    
+    // en este caso se le pidio a Chat GPT una cantidad de correos y nombres alazares para mi ejemplo 
    private static void cargarDatosDePrueba() {
         gimnasio.registrarEntrenador("Carlos Mendoza", "Entrenamiento Funcional", "555-0101", "carlos@fitlife.com");
         gimnasio.registrarEntrenador("Ana García", "Yoga y Pilates", "555-0102", "ana@fitlife.com");
