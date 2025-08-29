@@ -31,7 +31,7 @@ Sistema completo de gestión para gimnasios desarrollado en Java como parte del 
 ## Estructura del Proyecto
 
 ```
-src/
+el nombre de la carpeta /
 ├── Miembro.java      # Clase para gestionar miembros del gimnasio
 ├── Entrenador.java   # Clase para gestionar entrenadores
 ├── Rutina.java       # Clase para gestionar rutinas de ejercicio
@@ -57,13 +57,13 @@ src/
 
 ## Cómo Ejecutar
 
-### Compilación
+### Compilación \\bash / Terminal
 ```bash / Terminal
-mkdir -p bin
-javac -d bin src/*.java
+mkdir -p bin 
+javac -d bin src (nombre de la carpeta en donde  se clona) /*.java
 ```
 
-### Ejecución
+### Ejecución \\ bash / Terminal
 ```bash / Terminal
 java -cp bin Main
 ```
